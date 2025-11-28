@@ -1,0 +1,22 @@
+﻿@model InventoryManagementSystem.Models.Supplier
+
+<div class="container mt-4">
+    <h2>Edit Supplier</h2>
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="SupplierID" />
+        <div class="mb-3">
+            <label asp-for="SupplierName"></label>
+            <input asp-for="SupplierName" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="ContactNumber"></label>
+            <input asp-for="ContactNumber" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Address"></label>
+            <textarea asp-for="Address" class="form-control"></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Update</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h2 class="mb-4">Inventory Dashboard</h2>
+
+<div class="row g-4">
+    <!-- Total Products -->
+    <div class="col-md-3">
+        <div class="card text-white bg-primary h-100">
+            <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-box"></i> Products</h5>
+                <p class="card-text display-6">@ViewBag.TotalProducts</p>
+            </div>
+            <div class="card-footer">
+                <a class="text-white" asp-controller="Product" asp-action="Index">View Products</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Total Categories -->
+    <div class="col-md-3">
+        <div class="card text-white bg-success h-100">
+            <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-tags"></i> Categories</h5>
+                <p class="card-text display-6">@ViewBag.TotalCategories</p>
+            </div>
+            <div class="card-footer">
+                <a class="text-white" asp-controller="Category" asp-action="Index">View Categories</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Total Suppliers -->
+    <div class="col-md-3">
+        <div class="card text-white bg-warning h-100">
+            <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-truck"></i> Suppliers</h5>
+                <p class="card-text display-6">@ViewBag.TotalSuppliers</p>
+            </div>
+            <div class="card-footer">
+                <a class="text-white" asp-controller="Supplier" asp-action="Index">View Suppliers</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Total Inventory Value -->
+    <div class="col-md-3">
+        <div class="card text-white bg-danger h-100">
+            <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-coins"></i> Inventory Value</h5>
+                <p class="card-text display-6">₹@ViewBag.TotalInventoryValue</p>
+            </div>
+            <div class="card-footer">
+                <a class="text-white" asp-controller="Product" asp-action="Index">View Products</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mt-5">
+    <h4>Quick Actions</h4>
+    <div class="d-flex gap-3">
+        <a class="btn btn-primary btn-lg" asp-controller="Product" asp-action="Create"><i class="fas fa-plus"></i> Add Product</a>
+        <a class="btn btn-success btn-lg" asp-controller="Category" asp-action="Create"><i class="fas fa-plus"></i> Add Category</a>
+        <a class="btn btn-warning btn-lg" asp-controller="Supplier" asp-action="Create"><i class="fas fa-plus"></i> Add Supplier</a>
+    </div>
+</div>

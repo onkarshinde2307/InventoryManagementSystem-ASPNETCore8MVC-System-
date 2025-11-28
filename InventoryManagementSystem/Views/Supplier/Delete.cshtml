@@ -1,0 +1,14 @@
+﻿@model InventoryManagementSystem.Models.Supplier
+
+<div class="container mt-4">
+    <h2>Delete Supplier</h2>
+    <p>Are you sure you want to delete this supplier?</p>
+
+    <div><strong>@Model.SupplierName</strong></div>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="SupplierID" />
+        <button type="submit" class="btn btn-danger mt-3">Delete</button>
+        <a asp-action="Index" class="btn btn-secondary mt-3">Cancel</a>
+    </form>
+</div>

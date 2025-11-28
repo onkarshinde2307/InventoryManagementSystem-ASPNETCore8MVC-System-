@@ -1,0 +1,32 @@
+﻿@model IEnumerable<InventoryManagementSystem.Models.Supplier>
+
+<div class="container mt-4">
+    <h2>Supplier List</h2>
+    <a href="@Url.Action("Create")" class="btn btn-primary mb-3">Add Supplier</a>
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Supplier Name</th>
+                <th>Contact</th>
+                <th>Address</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.SupplierID</td>
+                    <td>@item.SupplierName</td>
+                    <td>@item.ContactNumber</td>
+                    <td>@item.Address</td>
+                    <td>
+                        <a href="/Supplier/Edit/@item.SupplierID" class="btn btn-warning btn-sm">Edit</a>
+                        <a href="/Supplier/Delete/@item.SupplierID" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
