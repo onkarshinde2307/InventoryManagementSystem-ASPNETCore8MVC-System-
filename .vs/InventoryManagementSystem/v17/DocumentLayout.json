@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\Inventory Management System using ASP.NET Core 8 MVC\\",
+  "WorkspaceRootPath": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\InventoryManagementSystem-ASPNETCore8MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD8B2CB3-3F2D-4E8F-B0CE-9F7B474FE43A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|d:\\.net course\\learning mvc\\mvc 8 dot net core\\inventory management system using asp.net core 8 mvc\\inventorymanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD8B2CB3-3F2D-4E8F-B0CE-9F7B474FE43A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AD8B2CB3-3F2D-4E8F-B0CE-9F7B474FE43A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|d:\\.net course\\learning mvc\\mvc 8 dot net core\\inventorymanagementsystem-aspnetcore8mvc\\inventorymanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8B2CB3-3F2D-4E8F-B0CE-9F7B474FE43A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8B2CB3-3F2D-4E8F-B0CE-9F7B474FE43A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|d:\\.net course\\learning mvc\\mvc 8 dot net core\\inventorymanagementsystem-aspnetcore8mvc\\inventorymanagementsystem\\data\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8B2CB3-3F2D-4E8F-B0CE-9F7B474FE43A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\data\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8B2CB3-3F2D-4E8F-B0CE-9F7B474FE43A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|d:\\.net course\\learning mvc\\mvc 8 dot net core\\inventorymanagementsystem-aspnetcore8mvc\\inventorymanagementsystem\\dal\\authdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8B2CB3-3F2D-4E8F-B0CE-9F7B474FE43A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\dal\\authdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8B2CB3-3F2D-4E8F-B0CE-9F7B474FE43A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|d:\\.net course\\learning mvc\\mvc 8 dot net core\\inventorymanagementsystem-aspnetcore8mvc\\inventorymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8B2CB3-3F2D-4E8F-B0CE-9F7B474FE43A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8B2CB3-3F2D-4E8F-B0CE-9F7B474FE43A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|d:\\.net course\\learning mvc\\mvc 8 dot net core\\inventorymanagementsystem-aspnetcore8mvc\\inventorymanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AD8B2CB3-3F2D-4E8F-B0CE-9F7B474FE43A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8B2CB3-3F2D-4E8F-B0CE-9F7B474FE43A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|d:\\.net course\\learning mvc\\mvc 8 dot net core\\inventorymanagementsystem-aspnetcore8mvc\\inventorymanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD8B2CB3-3F2D-4E8F-B0CE-9F7B474FE43A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +34,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbConnection.cs",
+              "DocumentMoniker": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\InventoryManagementSystem-ASPNETCore8MVC\\InventoryManagementSystem\\Data\\DbConnection.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\Data\\DbConnection.cs",
+              "ToolTip": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\InventoryManagementSystem-ASPNETCore8MVC\\InventoryManagementSystem\\Data\\DbConnection.cs",
+              "RelativeToolTip": "InventoryManagementSystem\\Data\\DbConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T05:50:22.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthDAL.cs",
+              "DocumentMoniker": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\InventoryManagementSystem-ASPNETCore8MVC\\InventoryManagementSystem\\DAL\\AuthDAL.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\DAL\\AuthDAL.cs",
+              "ToolTip": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\InventoryManagementSystem-ASPNETCore8MVC\\InventoryManagementSystem\\DAL\\AuthDAL.cs",
+              "RelativeToolTip": "InventoryManagementSystem\\DAL\\AuthDAL.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAqwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T05:45:42.155Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -23,14 +69,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\Inventory Management System using ASP.NET Core 8 MVC\\InventoryManagementSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "InventoryManagementSystem\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\Inventory Management System using ASP.NET Core 8 MVC\\InventoryManagementSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "InventoryManagementSystem\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAuwG4AAABlAAAAAAAAAA==",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\InventoryManagementSystem-ASPNETCore8MVC\\InventoryManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\InventoryManagementSystem-ASPNETCore8MVC\\InventoryManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "InventoryManagementSystem\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAqwFYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T12:36:26.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\InventoryManagementSystem-ASPNETCore8MVC\\InventoryManagementSystem\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\InventoryManagementSystem-ASPNETCore8MVC\\InventoryManagementSystem\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "InventoryManagementSystem\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-28T08:08:26.458Z",
+              "WhenOpened": "2025-11-28T14:21:41.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\InventoryManagementSystem-ASPNETCore8MVC\\InventoryManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\appsettings.json",
+              "ToolTip": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\InventoryManagementSystem-ASPNETCore8MVC\\InventoryManagementSystem\\appsettings.json",
+              "RelativeToolTip": "InventoryManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-28T13:06:01.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\InventoryManagementSystem-ASPNETCore8MVC\\InventoryManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\Program.cs",
+              "ToolTip": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\InventoryManagementSystem-ASPNETCore8MVC\\InventoryManagementSystem\\Program.cs",
+              "RelativeToolTip": "InventoryManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:05:00.162Z",
               "EditorCaption": ""
             }
           ]

@@ -1,24 +1,19 @@
 using InventoryManagementSystem.Data;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using OfficeOpenXml;
-
-// Set EPPlus license globally (must be first)
-//ExcelPackage.LicenseContext = LicenseContext.NonCommercial;    (Here is Error but i will resolve it)
-
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Enable MVC
+// MVC
 builder.Services.AddControllersWithViews();
 
-// Enable DbConnection class (DI)
+// Register DbConnection so it reads from appsettings.json
 builder.Services.AddScoped<DbConnection>();
 
-// Required for login session features
+// Session
 builder.Services.AddSession();
 builder.Services.AddHttpContextAccessor();
 
-// Enable Cookie Authentication
+// Cookie Authentication
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
@@ -29,8 +24,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 
 var app = builder.Build();
 
-// Error handling 
-//when error occurs in production environment then redirect to error page 
+// Error handling for production
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -44,10 +38,10 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-// Enable Session
+// Session
 app.UseSession();
 
-// Default Route
+// Route
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

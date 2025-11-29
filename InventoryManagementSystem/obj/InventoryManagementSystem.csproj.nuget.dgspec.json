@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\Inventory Management System using ASP.NET Core 8 MVC\\InventoryManagementSystem\\InventoryManagementSystem.csproj": {}
+    "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\InventoryManagementSystem-ASPNETCore8MVC\\InventoryManagementSystem\\InventoryManagementSystem.csproj": {}
   },
   "projects": {
-    "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\Inventory Management System using ASP.NET Core 8 MVC\\InventoryManagementSystem\\InventoryManagementSystem.csproj": {
+    "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\InventoryManagementSystem-ASPNETCore8MVC\\InventoryManagementSystem\\InventoryManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\Inventory Management System using ASP.NET Core 8 MVC\\InventoryManagementSystem\\InventoryManagementSystem.csproj",
+        "projectUniqueName": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\InventoryManagementSystem-ASPNETCore8MVC\\InventoryManagementSystem\\InventoryManagementSystem.csproj",
         "projectName": "InventoryManagementSystem",
-        "projectPath": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\Inventory Management System using ASP.NET Core 8 MVC\\InventoryManagementSystem\\InventoryManagementSystem.csproj",
+        "projectPath": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\InventoryManagementSystem-ASPNETCore8MVC\\InventoryManagementSystem\\InventoryManagementSystem.csproj",
         "packagesPath": "C:\\Users\\shind\\.nuget\\packages\\",
-        "outputPath": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\Inventory Management System using ASP.NET Core 8 MVC\\InventoryManagementSystem\\obj\\",
+        "outputPath": "D:\\.NET Course\\Learning MVC\\MVC 8 Dot Net Core\\InventoryManagementSystem-ASPNETCore8MVC\\InventoryManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

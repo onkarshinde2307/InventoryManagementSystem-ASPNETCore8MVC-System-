@@ -1,22 +1,21 @@
-﻿using System.Data.SqlClient;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
+using System.Data.SqlClient;
 
 namespace InventoryManagementSystem.Data
 {
     public class DbConnection
     {
-        private readonly IConfiguration _configuration;
-        public string ConnectionString { get; }
+        private readonly IConfiguration _config;
 
-        public DbConnection(IConfiguration configuration)
+        public DbConnection(IConfiguration config)
         {
-            _configuration = configuration;
-            ConnectionString = _configuration.GetConnectionString("DefaultConnection");
+            _config = config;
         }
 
         public SqlConnection GetConnection()
         {
-            return new SqlConnection(ConnectionString);
+            var connStr = _config.GetConnectionString("DefaultConnection");
+            return new SqlConnection(connStr);
         }
     }
 }

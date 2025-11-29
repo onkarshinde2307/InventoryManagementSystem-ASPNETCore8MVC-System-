@@ -83,6 +83,8 @@ namespace InventoryManagementSystem.Controllers
             //hERE =>  Sign out the user
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Login", "Account");
-        }
+        } 
+        
+
     }
 }
